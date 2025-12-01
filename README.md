@@ -3,13 +3,13 @@ Version of the reltrans code used in You et al (2025), Nature Communications. Th
 The genreal reltrans documentation can be found here: https://reltransdocs.readthedocs.io/en/latest/
 To use reltransCpF, load reltrans into xspec like usual (as is described in the link above), then the new model flavour can be called with the model command within xspec. The parameters are as follows:
 
-        Parameter  Unit     Default Value
-   1    h          Rg/Rh    6.0
-   2    a                   0.998
-   3    inc        deg      30.00
-   4    rin        Rg/ISCO  -1.0
-   5    rout       Rg       1000.0
-   6    z                   0.0      
+        Parameter  Unit     Default Value <br>
+   1    h          Rg/Rh    6.0  
+   2    a                   0.998  
+   3    inc        deg      30.00  
+   4    rin        Rg/ISCO  -1.0  
+   5    rout       Rg       1000.0  
+   6    z                   0.0        
    7    Gamma               2.0
    8    logxi               3.0
    9    Afe                 1.0

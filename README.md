@@ -1,6 +1,7 @@
 # Youetal2025
 Version of the reltrans code used in You et al (2025), Nature Communications. This version includes the model flavour reltransCpF, which outputs a lag vs frequency spectrum between two given energy bands. The code was branched from older versions of reltrans, so is kept in a separate repository for version control reasons.
-The genreal reltrans documentation can be found here: https://reltransdocs.readthedocs.io/en/latest/
+The genreal reltrans documentation can be found here: https://reltransdocs.readthedocs.io/en/latest/  
+  
 To use reltransCpF, load reltrans into xspec like usual (as is described in the link above), then the new model flavour can be called with the model command within xspec. The parameters are as follows:
 
 |    | Parameter         | Unit     | Default Value |

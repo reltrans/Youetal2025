@@ -29,3 +29,11 @@ To use reltransCpF, load reltrans into xspec like usual (as is described in the 
   23    norm                1.0  
 
 Parameters 1-20 are the same as in other model flavours. Parameters 21-24 define the two energy bands that the lag spectrum is taken between. 
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
+

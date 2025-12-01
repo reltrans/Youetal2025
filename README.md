@@ -32,6 +32,6 @@ To use reltransCpF, load reltrans into xspec like usual (as is described in the 
 
 Parameters 1-20 are the same as in other model flavours. Parameters 21-24 define the two energy bands that the lag spectrum is taken between. The model cross spectrum is taken between band A and Band B, such that a positive lag corresponds to band A lagging band B. Band A is energy Ea1 to Ea2, and band B is energy Eb1 to Eb2. Parameters 19-22 describe the prescription for the continuum lags. The usual reltrans model parameters g and phiAB are defined for each Fourier frequency range considered (see the readthedocs). Here, they depend on frequency $\nu$ as  
 $\texttt{phiAB}(\nu) = \texttt{phiAB} \times \nu^\texttt{ABexp}$  
-g(\nu)     = g \nu^g_exp.  
+$\texttt{g}(\nu)     = \texttt{g} \times \nu^\texttt{gexp}.$  
 Finally, parameter 23 must be **fixed** at unity.
 

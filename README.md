@@ -33,7 +33,26 @@ Parameters 1-20 are the same as in other model flavours. Parameters 21-24 define
 |    | Parameter         | Unit     | Default Value |
 |:---| :---------------- | :------  | :------------ |
 |1   | h                 | Rg/Rh    | 6.0           |
-|2   | SQL Hat           |   True   | 23.99 |
-|3   | Codecademy Tee    |  False   | 19.99 |
-|4   | Codecademy Hoodie |  False   | 42.99 |
+|2   | a                 |          | 0.998         |
+|3   | inc               |  deg     | 30.0          |
+|4   | rin               | Rg/ISCO  | -1.0          |  
+|5   | rout              | Rg       | 1000.0        |
+|6   | z                 |          | 0.0           |  
+|7   | Gamma             |          | 2.0           |  
+|8   | logxi             |          | 3.0           |  
+|9   | Afe               | solar    | 1.0           |
+|10  | logNe             |          | 15.0          |  
+|11  | kTe               | keV      | 300.0         |  
+  12    nH         10^22    0.0      
+  13    boost               1.0  
+  14    Mass       Msun     10.0  
+  15    Ea1        keV      0.3  
+  16    Ea2        keV      1.0  
+  17    Eb1        keV      1.0  
+  18    Eb2        keV      4.0  
+  19    phiAB      rad      -0.2  
+  20    AB_exp              1.0  
+  21    g                   0.1  
+  22    g_exp               1.0  
+  23    norm                1.0  
 

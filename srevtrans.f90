@@ -493,7 +493,7 @@ subroutine tdreltransCpF(ear, ne, param, ifl, photar)
   par(23) = param(19)        !DelAB
   par(24) = param(21)        !g
   par(25) = 1.0              !Anorm
-  par(26) = param(21)        !telescope response
+  par(26) = -1.0             !telescope response
   par(27) = param(15)        !First lc lowEn band
   par(28) = param(16)        !First lc highEn band
   par(29) = param(17)        !Second lc lowEn band
